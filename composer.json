@@ -1,0 +1,26 @@
+{
+  "name": "borismor/currency_average",
+  "require": {
+    "php": "^7.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Example\\": ["example/"],
+      "Lib\\": ["lib/"]
+    }
+  },
+  "authors": [
+    {
+      "name": "Boris",
+      "email": "borismor@ngs.ru"
+    }
+  ],
+  "scripts": {
+    "test": "./vendor/bin/phpunit --debug --colors=auto ./tests/*.*",
+    "app": "php -S localhost:8080 -t ./example/"
+  }
+}
