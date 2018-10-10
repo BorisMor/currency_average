@@ -4,7 +4,7 @@ namespace Lib;
 
 abstract class ProviderExchange {
 
-    /** @var string Валюта доллар */
+    /** @var string Валюта рубль */
     const CURRENCY_RUB = 'rub';
     /** @var string Валюта доллар */
     const CURRENCY_USD = 'usd';

@@ -64,7 +64,7 @@ class AverageCurrency
     }
 
     /**
-     * Изменить даты кура
+     * Изменить дату курса
      * @param $value
      * @return $this
      * @throws \Exception

@@ -12,7 +12,7 @@ use GuzzleHttp\Client;
 class ProviderExchangeRBC extends ProviderExchange {
 
     /**
-     * Получить код ЦБР для валюты
+     * Получить код РБК для валюты
      * @param $value
      * @return string
      * @throws \Exception
