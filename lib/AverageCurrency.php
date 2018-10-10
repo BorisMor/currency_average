@@ -10,7 +10,10 @@ namespace Lib;
 class AverageCurrency
 {
 
+    /** @var array Курсы валют из разных источников */
     protected $_exchangeRates;
+
+    /** @var float Расчетное значение */
     protected $_value;
 
     /**
@@ -99,7 +102,7 @@ class AverageCurrency
      * @param $toCurrency
      * @return AverageCurrency
      */
-    public static function model($fromCurrency, $toCurrency)
+    public static function model($fromCurrency, $toCurrency = ProviderExchange::CURRENCY_RUB)
     {
         return new static('now', $fromCurrency, $toCurrency);
     }
